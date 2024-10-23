@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
+    <width>1000</width>
     <height>800</height>
    </rect>
   </property>
@@ -17,7 +17,7 @@
    <bool>false</bool>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QWidget" name="layoutWidget">
+   <widget class="QWidget" name="">
     <property name="geometry">
      <rect>
       <x>0</x>
@@ -85,7 +85,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
+     <width>1000</width>
      <height>33</height>
     </rect>
    </property>
@@ -213,7 +213,7 @@
   <action name="actionPurchaseBill">
    <property name="icon">
     <iconset>
-     <normaloff>letter-a.png</normaloff>letter-a.png</iconset>
+     <normaloff>C:/Users/nihar/Downloads/letter-a.png</normaloff>C:/Users/nihar/Downloads/letter-a.png</iconset>
    </property>
    <property name="text">
     <string>&amp;PurchaseBill</string>
@@ -225,7 +225,7 @@
   <action name="actionBill">
    <property name="icon">
     <iconset>
-     <normaloff>letter-a.png</normaloff>letter-a.png</iconset>
+     <normaloff>C:/Users/nihar/Downloads/letter-a.png</normaloff>C:/Users/nihar/Downloads/letter-a.png</iconset>
    </property>
    <property name="text">
     <string>&amp;Bill</string>
@@ -237,7 +237,7 @@
   <action name="actiontool3">
    <property name="icon">
     <iconset>
-     <normaloff>letter-a.png</normaloff>letter-a.png</iconset>
+     <normaloff>C:/Users/nihar/Downloads/letter-a.png</normaloff>C:/Users/nihar/Downloads/letter-a.png</iconset>
    </property>
    <property name="text">
     <string>tool3</string>
@@ -249,7 +249,7 @@
   <action name="actiontool4">
    <property name="icon">
     <iconset>
-     <normaloff>letter-i.png</normaloff>letter-i.png</iconset>
+     <normaloff>C:/Users/nihar/Downloads/letter-i (1).png</normaloff>C:/Users/nihar/Downloads/letter-i (1).png</iconset>
    </property>
    <property name="text">
     <string>tool4</string>
@@ -261,7 +261,7 @@
   <action name="actiontool5">
    <property name="icon">
     <iconset>
-     <normaloff>letter-i.png</normaloff>letter-i.png</iconset>
+     <normaloff>C:/Users/nihar/Downloads/letter-i.png</normaloff>C:/Users/nihar/Downloads/letter-i.png</iconset>
    </property>
    <property name="text">
     <string>tool5</string>
@@ -273,7 +273,7 @@
   <action name="actiontool6">
    <property name="icon">
     <iconset>
-     <normaloff>letter-i.png</normaloff>letter-i.png</iconset>
+     <normaloff>C:/Users/nihar/Downloads/letter-i (1).png</normaloff>C:/Users/nihar/Downloads/letter-i (1).png</iconset>
    </property>
    <property name="text">
     <string>tool6</string>
@@ -285,7 +285,7 @@
   <action name="actiontool7">
    <property name="icon">
     <iconset>
-     <normaloff>letter-i.png</normaloff>letter-i.png</iconset>
+     <normaloff>C:/Users/nihar/Downloads/letter-i (1).png</normaloff>C:/Users/nihar/Downloads/letter-i (1).png</iconset>
    </property>
    <property name="text">
     <string>tool7</string>
