@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PurchaseBill</class>
+ <widget class="QWidget" name="PurchaseBill">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>746</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="0" column="0">
+    <layout class="QGridLayout" name="gridLayout" columnstretch="0,0,0,0,0,0,0,0,0">
+     <property name="horizontalSpacing">
+      <number>5</number>
+     </property>
+     <item row="1" column="7">
+      <widget class="QPushButton" name="pushButton_4">
+       <property name="text">
+        <string>&amp;C</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="lineEdit_2"/>
+     </item>
+     <item row="6" column="3" colspan="5">
+      <widget class="QTableWidget" name="tableWidget_3">
+       <property name="alternatingRowColors">
+        <bool>true</bool>
+       </property>
+       <property name="rowCount">
+        <number>10</number>
+       </property>
+       <property name="columnCount">
+        <number>5</number>
+       </property>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <column/>
+       <column/>
+       <column/>
+       <column/>
+       <column/>
+      </widget>
+     </item>
+     <item row="6" column="0" colspan="3">
+      <widget class="QTableWidget" name="tableWidget_2">
+       <property name="layoutDirection">
+        <enum>Qt::LayoutDirection::LeftToRight</enum>
+       </property>
+       <property name="alternatingRowColors">
+        <bool>true</bool>
+       </property>
+       <property name="rowCount">
+        <number>9</number>
+       </property>
+       <property name="columnCount">
+        <number>2</number>
+       </property>
+       <attribute name="verticalHeaderCascadingSectionResizes">
+        <bool>false</bool>
+       </attribute>
+       <attribute name="verticalHeaderShowSortIndicator" stdset="0">
+        <bool>false</bool>
+       </attribute>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <column/>
+       <column/>
+      </widget>
+     </item>
+     <item row="1" column="2">
+      <widget class="QLabel" name="label_2">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>1</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text">
+        <string>Bill No.</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="4">
+      <widget class="QLabel" name="label_4">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>1</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text">
+        <string>Date</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="1" colspan="2">
+      <widget class="QComboBox" name="comboBox_2">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>30</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1" colspan="4">
+      <widget class="QComboBox" name="comboBox">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>30</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0" colspan="2">
+      <widget class="QLabel" name="label_8">
+       <property name="text">
+        <string>HSN</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="7">
+      <widget class="QLabel" name="label_6">
+       <property name="text">
+        <string>0.00 Cr</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0" colspan="2">
+      <widget class="QLabel" name="label_7">
+       <property name="text">
+        <string>Pan :</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="2">
+      <widget class="QPushButton" name="pushButton">
+       <property name="text">
+        <string>Pay</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="2">
+      <widget class="QLabel" name="label_9">
+       <property name="text">
+        <string>0.00</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="5">
+      <widget class="QLabel" name="label_13">
+       <property name="layoutDirection">
+        <enum>Qt::LayoutDirection::LeftToRight</enum>
+       </property>
+       <property name="text">
+        <string>Final Amount.</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="0">
+      <widget class="QLabel" name="label_12">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+         <horstretch>2</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Remarks</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0" colspan="8">
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>GST PURCHASE</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="6" colspan="2">
+      <widget class="QLineEdit" name="lineEdit_3"/>
+     </item>
+     <item row="5" column="6" colspan="2">
+      <widget class="QLabel" name="label_11">
+       <property name="text">
+        <string>0.00</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="5">
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QPushButton" name="pushButton_3">
+         <property name="text">
+          <string>&amp;O</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_2">
+         <property name="text">
+          <string>&amp;P</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="1" column="5">
+      <widget class="QDateEdit" name="dateEdit"/>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_5">
+       <property name="text">
+        <string>Party</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_3">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>1</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text">
+        <string>Sr. No</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="3">
+      <widget class="QLineEdit" name="lineEdit"/>
+     </item>
+     <item row="5" column="5">
+      <widget class="QLabel" name="label_10">
+       <property name="text">
+        <string>0.00</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0" colspan="8">
+      <widget class="QTableWidget" name="tableWidget">
+       <property name="verticalScrollBarPolicy">
+        <enum>Qt::ScrollBarPolicy::ScrollBarAlwaysOn</enum>
+       </property>
+       <property name="alternatingRowColors">
+        <bool>true</bool>
+       </property>
+       <property name="rowCount">
+        <number>10</number>
+       </property>
+       <property name="columnCount">
+        <number>8</number>
+       </property>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <column/>
+       <column/>
+       <column/>
+       <column/>
+       <column/>
+       <column/>
+       <column/>
+       <column/>
+      </widget>
+     </item>
+     <item row="8" column="7">
+      <widget class="QLabel" name="label_16">
+       <property name="text">
+        <string>0.00</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="7">
+      <widget class="QLabel" name="label_17">
+       <property name="text">
+        <string>0.00</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="0">
+      <widget class="QLabel" name="label_15">
+       <property name="text">
+        <string>0.00</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="0">
+      <widget class="QLabel" name="label_14">
+       <property name="text">
+        <string>0.00</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="1" rowspan="2" colspan="6">
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QPushButton" name="pushButton_9">
+         <property name="text">
+          <string>&amp;Save</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_8">
+         <property name="text">
+          <string>&amp;Edit</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_7">
+         <property name="text">
+          <string>&amp;Cancel</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_6">
+         <property name="text">
+          <string>&amp;Delete</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_5">
+         <property name="text">
+          <string>&amp;Print</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_12">
+         <property name="text">
+          <string>&amp;Report</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_11">
+         <property name="text">
+          <string>E&amp;way</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_10">
+         <property name="text">
+          <string>&amp;Exit</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

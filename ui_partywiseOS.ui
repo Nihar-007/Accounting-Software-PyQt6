@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>partyWiseOS</class>
+ <widget class="QWidget" name="partyWiseOS">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>650</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>16777215</width>
+    <height>650</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="0" column="0">
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="2" column="0" colspan="2">
+      <widget class="QLabel" name="label">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>35</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Format</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0" colspan="2">
+      <widget class="QLabel" name="label_5">
+       <property name="text">
+        <string>Book Name</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="5">
+      <widget class="QRadioButton" name="radioButton_11">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>All Expense</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="5">
+      <widget class="QLineEdit" name="lineEdit_2"/>
+     </item>
+     <item row="16" column="3" colspan="2">
+      <widget class="QLabel" name="label_17">
+       <property name="text">
+        <string>To</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="2" colspan="4">
+      <widget class="QLineEdit" name="lineEdit_6"/>
+     </item>
+     <item row="16" column="2">
+      <widget class="QLineEdit" name="lineEdit_14"/>
+     </item>
+     <item row="16" column="0" colspan="2">
+      <widget class="QLabel" name="label_15">
+       <property name="text">
+        <string>Over Due Days</string>
+       </property>
+      </widget>
+     </item>
+     <item row="13" column="2" colspan="4">
+      <widget class="QLineEdit" name="lineEdit_12">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QRadioButton" name="radioButton_13">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text">
+        <string>Purchase</string>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="2" colspan="4">
+      <widget class="QLineEdit" name="lineEdit_9">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+      </widget>
+     </item>
+     <item row="14" column="2" colspan="2">
+      <widget class="QCheckBox" name="checkBox_2">
+       <property name="text">
+        <string>On A/c Return</string>
+       </property>
+      </widget>
+     </item>
+     <item row="16" column="5">
+      <widget class="QLineEdit" name="lineEdit_16"/>
+     </item>
+     <item row="1" column="0">
+      <widget class="QRadioButton" name="radioButton_9">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Sales</string>
+       </property>
+      </widget>
+     </item>
+     <item row="15" column="5">
+      <widget class="QLineEdit" name="lineEdit_15"/>
+     </item>
+     <item row="11" column="2" colspan="4">
+      <widget class="QLineEdit" name="lineEdit_10">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="2">
+      <widget class="QLineEdit" name="lineEdit"/>
+     </item>
+     <item row="6" column="0" colspan="2">
+      <widget class="QLabel" name="label_6">
+       <property name="text">
+        <string>Account</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="0" colspan="2">
+      <widget class="QLabel" name="label_8">
+       <property name="text">
+        <string>A/c Sub Group</string>
+       </property>
+      </widget>
+     </item>
+     <item row="14" column="0" colspan="2">
+      <widget class="QCheckBox" name="checkBox">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text">
+        <string>Broker Of Master</string>
+       </property>
+      </widget>
+     </item>
+     <item row="12" column="0" colspan="2">
+      <widget class="QLabel" name="label_12">
+       <property name="text">
+        <string>Item Name</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="2" colspan="4">
+      <widget class="QComboBox" name="comboBox">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>35</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="2" colspan="4">
+      <widget class="QLineEdit" name="lineEdit_5"/>
+     </item>
+     <item row="13" column="0" colspan="2">
+      <widget class="QLabel" name="label_13">
+       <property name="text">
+        <string>Item Group</string>
+       </property>
+      </widget>
+     </item>
+     <item row="15" column="2">
+      <widget class="QLineEdit" name="lineEdit_13"/>
+     </item>
+     <item row="1" column="3">
+      <widget class="QRadioButton" name="radioButton_10">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Job Expense</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="3" colspan="3">
+      <widget class="QGroupBox" name="groupBox_2">
+       <property name="title">
+        <string/>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <widget class="QRadioButton" name="radioButton_4">
+          <property name="text">
+           <string>Pending</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="radioButton_5">
+          <property name="text">
+           <string>Part Due</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="radioButton_6">
+          <property name="text">
+           <string>Paid</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="radioButton_7">
+          <property name="text">
+           <string>All</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item row="5" column="2" colspan="4">
+      <widget class="QLineEdit" name="lineEdit_4"/>
+     </item>
+     <item row="7" column="0" colspan="2">
+      <widget class="QLabel" name="label_7">
+       <property name="text">
+        <string>A/c Group</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="3" colspan="2">
+      <widget class="QLabel" name="label_3">
+       <property name="acceptDrops">
+        <bool>false</bool>
+       </property>
+       <property name="text">
+        <string>To</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="14" column="4" colspan="2">
+      <widget class="QCheckBox" name="checkBox_3">
+       <property name="text">
+        <string>Show Closing Balance</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0" colspan="2">
+      <widget class="QLabel" name="label_4">
+       <property name="text">
+        <string>Company</string>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="2" colspan="4">
+      <widget class="QLineEdit" name="lineEdit_8">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="0" colspan="2">
+      <widget class="QLabel" name="label_9">
+       <property name="text">
+        <string>A/c Area</string>
+       </property>
+      </widget>
+     </item>
+     <item row="12" column="2" colspan="4">
+      <widget class="QLineEdit" name="lineEdit_11">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="0" colspan="2">
+      <widget class="QLabel" name="label_10">
+       <property name="text">
+        <string>A/c City</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0" colspan="3">
+      <widget class="QGroupBox" name="groupBox">
+       <property name="title">
+        <string/>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_3">
+        <item row="0" column="1">
+         <widget class="QRadioButton" name="radioButton_8">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>Last Yr</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <widget class="QRadioButton" name="radioButton_2">
+          <property name="text">
+           <string>Current Yr</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="2">
+         <widget class="QRadioButton" name="radioButton_3">
+          <property name="text">
+           <string>All</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item row="8" column="2" colspan="4">
+      <widget class="QLineEdit" name="lineEdit_7"/>
+     </item>
+     <item row="15" column="3" colspan="2">
+      <widget class="QLabel" name="label_16">
+       <property name="text">
+        <string>To</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="15" column="0" colspan="2">
+      <widget class="QLabel" name="label_14">
+       <property name="text">
+        <string>Over Bill Days</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="4">
+      <widget class="QRadioButton" name="radioButton_12">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>All income</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0" colspan="2">
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>Date</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2">
+      <widget class="QRadioButton" name="radioButton">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text">
+        <string>Job Income</string>
+       </property>
+      </widget>
+     </item>
+     <item row="11" column="0" colspan="2">
+      <widget class="QLabel" name="label_11">
+       <property name="text">
+        <string>Broker</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="2" colspan="4">
+      <widget class="QLineEdit" name="lineEdit_3"/>
+     </item>
+     <item row="17" column="0" colspan="3">
+      <widget class="QCheckBox" name="checkBox_4">
+       <property name="text">
+        <string>Show Only Discount Bill</string>
+       </property>
+      </widget>
+     </item>
+     <item row="18" column="3">
+      <widget class="QPushButton" name="pushButton">
+       <property name="text">
+        <string>&amp;Double</string>
+       </property>
+      </widget>
+     </item>
+     <item row="18" column="4">
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="text">
+        <string>&amp;Exit</string>
+       </property>
+      </widget>
+     </item>
+     <item row="18" column="2">
+      <widget class="QPushButton" name="pushButton_3">
+       <property name="text">
+        <string>&amp;Preview</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

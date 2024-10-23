@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>SHREE SHAKTI THREAD - NHD</string>
+  </property>
+  <property name="unifiedTitleAndToolBarOnMac">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>258</width>
+      <height>701</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout" stretch="0,0">
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <property name="leftMargin">
+      <number>0</number>
+     </property>
+     <property name="topMargin">
+      <number>0</number>
+     </property>
+     <property name="bottomMargin">
+      <number>70</number>
+     </property>
+     <item>
+      <widget class="QComboBox" name="comboBox">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>250</width>
+         <height>40</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QListWidget" name="listWidget">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>250</width>
+         <height>334</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>591</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1000</width>
+     <height>33</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuMaster">
+    <property name="title">
+     <string>&amp;Master</string>
+    </property>
+    <addaction name="actionPurchaseBill"/>
+    <addaction name="actionBill"/>
+   </widget>
+   <widget class="QMenu" name="menuTransaction">
+    <property name="title">
+     <string>&amp;Transaction</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuProduction">
+    <property name="title">
+     <string>&amp;Production</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuReport">
+    <property name="title">
+     <string>&amp;Report</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuTransaction_Reports">
+    <property name="title">
+     <string>&amp;Transaction Reports</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuFinal_report">
+    <property name="title">
+     <string>&amp;Final report</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuTools">
+    <property name="title">
+     <string>&amp;Tools</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuUtility">
+    <property name="title">
+     <string>&amp;Utility</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuCalculator">
+    <property name="title">
+     <string>&amp;Calculator</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuView">
+    <property name="title">
+     <string>&amp;View</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuExit">
+    <property name="title">
+     <string>&amp;Exit</string>
+    </property>
+   </widget>
+   <addaction name="menuMaster"/>
+   <addaction name="menuTransaction"/>
+   <addaction name="menuProduction"/>
+   <addaction name="menuReport"/>
+   <addaction name="menuTransaction_Reports"/>
+   <addaction name="menuFinal_report"/>
+   <addaction name="menuTools"/>
+   <addaction name="menuUtility"/>
+   <addaction name="menuCalculator"/>
+   <addaction name="menuView"/>
+   <addaction name="menuExit"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>20</width>
+     <height>20</height>
+    </size>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionPurchaseBill"/>
+   <addaction name="actionBill"/>
+   <addaction name="actiontool3"/>
+   <addaction name="separator"/>
+   <addaction name="actiontool4"/>
+   <addaction name="actiontool5"/>
+   <addaction name="actiontool6"/>
+   <addaction name="actiontool7"/>
+   <addaction name="separator"/>
+   <addaction name="actiontool8"/>
+   <addaction name="actiontool9"/>
+   <addaction name="separator"/>
+   <addaction name="actiontool10"/>
+   <addaction name="actiontool11"/>
+   <addaction name="actiontool12"/>
+   <addaction name="separator"/>
+   <addaction name="actiontool13"/>
+   <addaction name="actiontool14"/>
+   <addaction name="separator"/>
+   <addaction name="actiontool15"/>
+   <addaction name="actiontool16"/>
+   <addaction name="actiontool17"/>
+   <addaction name="actiontool18"/>
+   <addaction name="actiontool19"/>
+   <addaction name="separator"/>
+   <addaction name="actiontool20"/>
+   <addaction name="separator"/>
+   <addaction name="actiontool21"/>
+   <addaction name="actiontool22"/>
+   <addaction name="separator"/>
+   <addaction name="actiontool23"/>
+   <addaction name="actiontool24"/>
+   <addaction name="actiontool25"/>
+   <addaction name="separator"/>
+  </widget>
+  <action name="actionPurchaseBill">
+   <property name="icon">
+    <iconset>
+     <normaloff>C:/Users/nihar/Downloads/letter-a.png</normaloff>C:/Users/nihar/Downloads/letter-a.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;PurchaseBill</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::NoRole</enum>
+   </property>
+  </action>
+  <action name="actionBill">
+   <property name="icon">
+    <iconset>
+     <normaloff>C:/Users/nihar/Downloads/letter-a.png</normaloff>C:/Users/nihar/Downloads/letter-a.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Bill</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::NoRole</enum>
+   </property>
+  </action>
+  <action name="actiontool3">
+   <property name="icon">
+    <iconset>
+     <normaloff>C:/Users/nihar/Downloads/letter-a.png</normaloff>C:/Users/nihar/Downloads/letter-a.png</iconset>
+   </property>
+   <property name="text">
+    <string>tool3</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::NoRole</enum>
+   </property>
+  </action>
+  <action name="actiontool4">
+   <property name="icon">
+    <iconset>
+     <normaloff>C:/Users/nihar/Downloads/letter-i (1).png</normaloff>C:/Users/nihar/Downloads/letter-i (1).png</iconset>
+   </property>
+   <property name="text">
+    <string>tool4</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::NoRole</enum>
+   </property>
+  </action>
+  <action name="actiontool5">
+   <property name="icon">
+    <iconset>
+     <normaloff>C:/Users/nihar/Downloads/letter-i.png</normaloff>C:/Users/nihar/Downloads/letter-i.png</iconset>
+   </property>
+   <property name="text">
+    <string>tool5</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::NoRole</enum>
+   </property>
+  </action>
+  <action name="actiontool6">
+   <property name="icon">
+    <iconset>
+     <normaloff>C:/Users/nihar/Downloads/letter-i (1).png</normaloff>C:/Users/nihar/Downloads/letter-i (1).png</iconset>
+   </property>
+   <property name="text">
+    <string>tool6</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::NoRole</enum>
+   </property>
+  </action>
+  <action name="actiontool7">
+   <property name="icon">
+    <iconset>
+     <normaloff>C:/Users/nihar/Downloads/letter-i (1).png</normaloff>C:/Users/nihar/Downloads/letter-i (1).png</iconset>
+   </property>
+   <property name="text">
+    <string>tool7</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::NoRole</enum>
+   </property>
+  </action>
+  <action name="actiontool8">
+   <property name="icon">
+    <iconset>
+     <normaloff>C:/Users/nihar/Downloads/letter-a.png</normaloff>C:/Users/nihar/Downloads/letter-a.png</iconset>
+   </property>
+   <property name="text">
+    <string>tool8</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::NoRole</enum>
+   </property>
+  </action>
+  <action name="actiontool9">
+   <property name="icon">
+    <iconset>
+     <normaloff>C:/Users/nihar/Downloads/letter-a.png</normaloff>C:/Users/nihar/Downloads/letter-a.png</iconset>
+   </property>
+   <property name="text">
+    <string>tool9</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::NoRole</enum>
+   </property>
+  </action>
+  <action name="actiontool10">
+   <property name="icon">
+    <iconset>
+     <normaloff>C:/Users/nihar/Downloads/letter-i (2).png</normaloff>C:/Users/nihar/Downloads/letter-i (2).png</iconset>
+   </property>
+   <property name="text">
+    <string>tool10</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::NoRole</enum>
+   </property>
+  </action>
+  <action name="actiontool11">
+   <property name="icon">
+    <iconset>
+     <normaloff>C:/Users/nihar/Downloads/letter-i (1).png</normaloff>C:/Users/nihar/Downloads/letter-i (1).png</iconset>
+   </property>
+   <property name="text">
+    <string>tool11</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::NoRole</enum>
+   </property>
+  </action>
+  <action name="actiontool12">
+   <property name="icon">
+    <iconset>
+     <normaloff>C:/Users/nihar/Downloads/letter-i (1).png</normaloff>C:/Users/nihar/Downloads/letter-i (1).png</iconset>
+   </property>
+   <property name="text">
+    <string>tool12</string>
+   </property>
+   <property name="toolTip">
+    <string>tool12</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::NoRole</enum>
+   </property>
+  </action>
+  <action name="actiontool13">
+   <property name="icon">
+    <iconset>
+     <normaloff>C:/Users/nihar/Downloads/letter-i (1).png</normaloff>C:/Users/nihar/Downloads/letter-i (1).png</iconset>
+   </property>
+   <property name="text">
+    <string>tool13</string>
+   </property>
+   <property name="toolTip">
+    <string>tool13</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::NoRole</enum>
+   </property>
+  </action>
+  <action name="actiontool14">
+   <property name="icon">
+    <iconset>
+     <normaloff>C:/Users/nihar/Downloads/letter-i (1).png</normaloff>C:/Users/nihar/Downloads/letter-i (1).png</iconset>
+   </property>
+   <property name="text">
+    <string>tool14</string>
+   </property>
+   <property name="toolTip">
+    <string>tool14</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::NoRole</enum>
+   </property>
+  </action>
+  <action name="actiontool15">
+   <property name="icon">
+    <iconset>
+     <normaloff>C:/Users/nihar/Downloads/letter-a.png</normaloff>C:/Users/nihar/Downloads/letter-a.png</iconset>
+   </property>
+   <property name="text">
+    <string>tool15</string>
+   </property>
+   <property name="toolTip">
+    <string>tool15</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::NoRole</enum>
+   </property>
+  </action>
+  <action name="actiontool16">
+   <property name="icon">
+    <iconset>
+     <normaloff>C:/Users/nihar/Downloads/letter-a.png</normaloff>C:/Users/nihar/Downloads/letter-a.png</iconset>
+   </property>
+   <property name="text">
+    <string>tool16</string>
+   </property>
+   <property name="toolTip">
+    <string>tool16</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::NoRole</enum>
+   </property>
+  </action>
+  <action name="actiontool17">
+   <property name="icon">
+    <iconset>
+     <normaloff>C:/Users/nihar/Downloads/letter-a.png</normaloff>C:/Users/nihar/Downloads/letter-a.png</iconset>
+   </property>
+   <property name="text">
+    <string>tool17</string>
+   </property>
+   <property name="toolTip">
+    <string>tool17</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::NoRole</enum>
+   </property>
+  </action>
+  <action name="actiontool18">
+   <property name="icon">
+    <iconset>
+     <normaloff>C:/Users/nihar/Downloads/letter-a.png</normaloff>C:/Users/nihar/Downloads/letter-a.png</iconset>
+   </property>
+   <property name="text">
+    <string>tool18</string>
+   </property>
+   <property name="toolTip">
+    <string>tool18</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::NoRole</enum>
+   </property>
+  </action>
+  <action name="actiontool19">
+   <property name="icon">
+    <iconset>
+     <normaloff>C:/Users/nihar/Downloads/letter-a.png</normaloff>C:/Users/nihar/Downloads/letter-a.png</iconset>
+   </property>
+   <property name="text">
+    <string>tool19</string>
+   </property>
+   <property name="toolTip">
+    <string>tool19</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::NoRole</enum>
+   </property>
+  </action>
+  <action name="actiontool20">
+   <property name="icon">
+    <iconset>
+     <normaloff>C:/Users/nihar/Downloads/letter-i (1).png</normaloff>C:/Users/nihar/Downloads/letter-i (1).png</iconset>
+   </property>
+   <property name="text">
+    <string>tool20</string>
+   </property>
+   <property name="toolTip">
+    <string>tool20</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::NoRole</enum>
+   </property>
+  </action>
+  <action name="actiontool21">
+   <property name="icon">
+    <iconset>
+     <normaloff>C:/Users/nihar/Downloads/letter-a.png</normaloff>C:/Users/nihar/Downloads/letter-a.png</iconset>
+   </property>
+   <property name="text">
+    <string>tool21</string>
+   </property>
+   <property name="toolTip">
+    <string>tool21</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::NoRole</enum>
+   </property>
+  </action>
+  <action name="actiontool22">
+   <property name="icon">
+    <iconset>
+     <normaloff>C:/Users/nihar/Downloads/letter-a.png</normaloff>C:/Users/nihar/Downloads/letter-a.png</iconset>
+   </property>
+   <property name="text">
+    <string>tool22</string>
+   </property>
+   <property name="toolTip">
+    <string>tool22</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::NoRole</enum>
+   </property>
+  </action>
+  <action name="actiontool23">
+   <property name="icon">
+    <iconset>
+     <normaloff>C:/Users/nihar/Downloads/letter-i (1).png</normaloff>C:/Users/nihar/Downloads/letter-i (1).png</iconset>
+   </property>
+   <property name="text">
+    <string>tool23</string>
+   </property>
+   <property name="toolTip">
+    <string>tool23</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::NoRole</enum>
+   </property>
+  </action>
+  <action name="actiontool24">
+   <property name="icon">
+    <iconset>
+     <normaloff>C:/Users/nihar/Downloads/letter-i (1).png</normaloff>C:/Users/nihar/Downloads/letter-i (1).png</iconset>
+   </property>
+   <property name="text">
+    <string>tool24</string>
+   </property>
+   <property name="toolTip">
+    <string>tool24</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::NoRole</enum>
+   </property>
+  </action>
+  <action name="actiontool25">
+   <property name="icon">
+    <iconset>
+     <normaloff>C:/Users/nihar/Downloads/letter-i (1).png</normaloff>C:/Users/nihar/Downloads/letter-i (1).png</iconset>
+   </property>
+   <property name="text">
+    <string>tool25</string>
+   </property>
+   <property name="toolTip">
+    <string>tool25</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::NoRole</enum>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
